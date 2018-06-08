@@ -1,0 +1,45 @@
+{
+  "name": "mplayer",
+  "version": "0.0.1",
+  "description": "手机端播放器",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --open --hot",
+    "build": "webpack-cli --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabulore/mPlayer.git"
+  },
+  "author": "kabulore@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kabulore/mPlayer/issues"
+  },
+  "homepage": "https://github.com/kabulore/mPlayer#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.12.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
