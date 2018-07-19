@@ -33,7 +33,7 @@ window.initMPlayer(opt);
 var msg = {
   content:'小花狗真好看',
   username:'总有刁民想害朕',
-  type: 0,
+  type: 1,
   usercolor: 'red'
 };
 
