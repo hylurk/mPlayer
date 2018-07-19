@@ -50,4 +50,26 @@ window.pushDanmu(msg);
 | usercolor    | 用户名的颜色      | string         |     'red', 'green'   |   'red'   |   否    |
 
 
+### 3. 初始化用户信息
+
+#### 示例代码：
+
+```
+var info = {
+  username: '总有刁民想害朕', 
+  userid: 2568124, 
+  avatar: ''
+};
+
+window.initUserInfo(info);
+```
+
+#### 参数说明：
+
+| 参数         | 说明             | 类型            | 可选值                |  默认值    | 是否必须 |
+|-------------|------------------|----------------|----------------------|-----------|---------|
+| username     | 用户名            | string         |          —           |    —      |   是    |
+| userid       | 用户ID           | number         |         —            |    —      |   是    |
+| avatar      | 用户头像地址       | string         |         —            |     —     |   是    |
+
 
