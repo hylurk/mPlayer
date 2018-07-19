@@ -17,7 +17,6 @@ var msg = {
 };
 
 window.pushDanmu(msg);
-  
 ```
 
 #### 参数说明：
